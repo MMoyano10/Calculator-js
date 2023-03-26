@@ -1,0 +1,44 @@
+body{
+    background-color: lightsteelblue;
+    padding: 4% 40% 4% 40%;
+}
+
+.calculator{
+    background-color:rgb(2, 2, 48);
+    display: block;
+    text-align: center;
+    width: 280px;
+    height: 420px;
+    border-radius: 25px;
+}
+.keyboard{
+    border: 2cm;
+    border-radius: 50%;
+    text-align: center;   
+}
+
+button{
+    width: 60px;
+    height: 60px;
+}
+
+#result{
+    padding: 10%;
+    border: 2cm;
+    width: 240px;
+    height: 60px;
+}
+/*body*/
+#resultDisplay{
+    display: block;
+    width: 240px;
+    height: 60px;
+    background-color: white;
+    text-align: center;
+    margin: 110px 20px 20px 20px;
+    border-radius: 10px;
+    font-size: 30px;
+    color:black;
+    overflow-x:scroll;
+}
+
